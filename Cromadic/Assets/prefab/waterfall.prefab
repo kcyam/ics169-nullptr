@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1118779252211212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4022720462484942}
+  - component: {fileID: 33337995156536016}
+  - component: {fileID: 23144386836306218}
+  - component: {fileID: 65940075287695154}
+  - component: {fileID: 114364676947366850}
+  - component: {fileID: 114859619541965718}
+  - component: {fileID: 114613807986023122}
+  - component: {fileID: 54755615023055230}
+  m_Layer: 4
+  m_Name: waterfall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4022720462484942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118779252211212}
+  m_LocalRotation: {x: -0.07742828, y: 0.29087907, z: -0.48965615, w: 0.81830996}
+  m_LocalPosition: {x: 70, y: 24, z: -31.005}
+  m_LocalScale: {x: 1.563387, y: 1.1358452, z: 5.477198}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 9.099, y: 33.981003, z: -59.005}
+--- !u!33 &33337995156536016
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118779252211212}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23144386836306218
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118779252211212}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 81301aabaacb29c41aec223edaf09cfa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &65940075287695154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118779252211212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.021449732, y: 0.019124892, z: 0.04679223}
+  m_Center: {x: 0.0049488405, y: 0.003583245, z: 0.0003322848}
+--- !u!114 &114364676947366850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118779252211212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ad8a41e96468f4da2d77741b4d2fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drainSpeed: 0.005
+  fillSpeed: 0.005
+  maxVolume: 1
+  currentVolume: 1
+--- !u!114 &114859619541965718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118779252211212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b5e37f731f1be4693756e66c713cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isWater: 1
+  reset: 0
+  canUpdate: 1
+--- !u!114 &114613807986023122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118779252211212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012683c6b9ea44c3989a6ea6b69328bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rock: {fileID: 1118779252211212}
+  first: 0
+  iswaterfall: 1
+  iswellflow: 0
+  blowout: {x: 0, y: 0, z: 0}
+  blowout_up: {x: 0, y: 0, z: 0}
+  blowout_xz: {x: 0, y: 0, z: 0}
+  angular_velocity: {x: 0, y: 0, z: 0}
+  y_angle: 0
+  blowout_speed: 0
+  blowout_speed_base: 0
+  forward_back_angle: 0
+  base_radius: 0
+  y_angle_center: 0
+  y_angle_swing: 0
+  arc_length: 0
+--- !u!54 &54755615023055230
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118779252211212}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

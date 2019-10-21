@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LockonLaser
+  - Pushable
+  - fire
+  - Wind
+  - door1
+  - torch bottom on hand
+  - torch fire on hand
+  - toPick1
+  - fire source
+  - fire base1
+  - fire base2
+  - torch_on_door
+  - Boulder
+  - original vine
+  - FX_Rain
+  - Lid
+  - GroundBlock
+  - boat
+  - torchFireCube
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - original vine
+  - Rain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
